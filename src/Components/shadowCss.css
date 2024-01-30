@@ -1,0 +1,60 @@
+.shadow-skillsafari {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.instructor {
+  transition: 0.5s !important;
+}
+
+.instructor #LinkedInicon {
+  transition: 0.5s !important;
+  opacity: 0;
+}
+
+.instructor:hover #LinkedInicon {
+  opacity: 1;
+}
+
+#discord-button {
+  transition: all 0.7s;
+}
+
+.learnNav {
+  transition: 0.5s;
+}
+.learnNav:hover {
+  filter: drop-shadow(5px 5px 30px #f3274f);
+}
+
+#discord-button:hover {
+  border-radius: 75px;
+}
+
+.button-1 {
+  padding: 10px 30px;
+  background-color: #f3274f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-2 {
+  padding: 10px 30px;
+  background-color: #2bb63f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button-1:hover {
+  border-radius: 50px;
+}
+.button-2:hover {
+  border-radius: 50px;
+}
+
+.careerpathTitle {
+  background: -webkit-linear-gradient(#2699fb, #f3274f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

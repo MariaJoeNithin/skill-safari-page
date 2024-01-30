@@ -1,0 +1,280 @@
+{
+  "Section1": {
+    "Title1": "Join with us to become a",
+    "Position": [
+      "QA Automation Tester",
+      "Data Analyst",
+      "Full Stack Developer|"
+    ],
+    "Title2": "with Assured Placement",
+    "Description": "Enroll now & Get trained in skills that are essential to secure your dream job in our full-stack developer course. The course offers 100% Assured Placement, In leading tech companies with a salary No less than 4 LPA. Feel free to get in touch with us for more details",
+    "BatchStart": { "Next Batch Starts": "Coming Soon" }
+  },
+  "Section2": {
+    "accredited by": {
+      "Title": "We are accredited by",
+      "images": [
+        "https://res.cloudinary.com/skill-safari/image/upload/v1688626100/website/web%20images/nasscom_ivm0o1.webp",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1688626100/website/web%20images/iabac_lsk3ij.webp",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1688626100/website/web%20images/skill_india_nff8zb.webp"
+      ]
+    },
+    "Step into the World": {
+      "Title": "Excitingly Step into the World of IT with Skill Safari Alchemyst 2.0!"
+    }
+  },
+  "navPage": {
+    "navimages": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1688640563/website/2.0/start-1_qhc6pl.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1688640563/website/2.0/start-2_taidhw.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1688640563/website/2.0/start-3_gq1bnj.png"
+    ],
+    "Stages": ["Stage-1", "Stage-2", "Stage-3"],
+    "BookmarkLinks": ["#stage1", "#stage2", "#stage3"],
+    "lineImg": "https://res.cloudinary.com/skill-safari/image/upload/v1678183544/website/web%20images/yellow-line_ma6p4f.png"
+  },
+  "Stage 1": {
+    "Title": "Stage 1: Fundamentals",
+    "subTopic": {
+      "content": "You will spend the first two months of the Alchemyst 2.0 program learning the basics of programming.",
+      "images": [
+        "https://skillsafari.in/images/ic4.png",
+        "https://skillsafari.in/images/ic1-n.png",
+        "https://skillsafari.in/images/ic2.png",
+        "https://skillsafari.in/images/ic3-n.png"
+      ],
+      "imgCaption": [
+        "100+ Hours Hands on Training",
+        "Work On Real World Projects",
+        "No Prior Coding Knowledge required",
+        "Instructor - Led Live Classes"
+      ]
+    },
+    "program": {
+      "Title": "Program Includes",
+      "images": [
+        "https://res.cloudinary.com/skill-safari/image/upload/v1688640017/website/2.0/HTML_pauq6n.jpg",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1688640017/website/2.0/CSS_rznr0r.jpg",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1688640017/website/2.0/PYTHON_mipngi.jpg",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1688640017/website/2.0/SQL_tjjjon.jpg"
+      ]
+    }
+  },
+  "Stage 2": {
+    "Title": "Stage 2: Choose your career path",
+    "subTopic": "With the help of our fundamentals Unleash your potential with our comprehensive courses designed for aspiring tech enthusiasts and Kick Start your career in IT in any one of the 3 career paths.",
+    "program": [
+      {
+        "Title": "MERN Stack Web Developer",
+        "images": [
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798287/website/web%20images/Mongo_DB_ogukup.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798287/website/web%20images/Ex_teewen.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798287/website/web%20images/Node_cvvhuf.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798288/website/web%20images/react_rnqzkm.png"
+        ]
+      },
+      {
+        "Title": "Data Analyst",
+        "images": [
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798287/website/web%20images/Excel_mtnnxi.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798288/website/web%20images/Python_iewp6w.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798288/website/web%20images/Scikit_Learn_qtbtxx.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798288/website/web%20images/Power_BI_qpifbg.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798288/website/web%20images/Tableau_kmdryn.png"
+        ]
+      },
+      {
+        "Title": "QA/Automation Tester",
+        "images": [
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798287/website/web%20images/Java_odbpx3.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798288/website/web%20images/Selenium_n5ferp.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798288/website/web%20images/Cucumber_tazipp.png",
+          "https://res.cloudinary.com/skill-safari/image/upload/v1688798288/website/web%20images/Testng_esknk7.png"
+        ]
+      }
+    ]
+  },
+
+  "Outcome Based Learning": {
+    "Title": "Outcome Based Learning",
+    "text": "We at Skill Safari religiously believe in the principles of outcome-based learning.",
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683791598/OBL_2_1_k04m36.webp"
+    ],
+    "newContent": [
+      {
+        "title": "Collaborative Learning",
+        "cnt": "Where students have the opportunity to talk and learn with their peers and industry experts."
+      },
+      {
+        "title": "Real-Time Learning",
+        "cnt": "As our sessions are live, students can contribute their ideas and opinions in each session effectively."
+      },
+      {
+        "title": "Goal Based Learning",
+        "cnt": "As our sessions are live, students can contribute their ideas and opinions in each session effectively."
+      },
+      {
+        "title": "Accountability",
+        "cnt": "We also track quality measures and analyze performance indicators that meet the needs of companies."
+      },
+      {
+        "title": "Networking",
+        "cnt": "Students are exposed to industry wide experts, allowing them to create a strong network."
+      }
+    ]
+  },
+  "Certification": {
+    "Title": "Get Certified",
+    "text": "You will be given a certificate proving your industry readiness after submitting your projects and passing the pre-placement test.",
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1690278539/alchemyst-2.o-certificate_h1ayx1.jpg"
+    ]
+  },
+  "companys": {
+    "title": "Hiring Partners",
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876564/two-hiring-partners/partner-1_msmjyq.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_14_zgcnk5.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876564/two-hiring-partners/Asset_7_bwqbuf.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876564/two-hiring-partners/Asset_8_lbyf1f.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_16_j2bscv.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_10_gj8qzf.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876564/two-hiring-partners/Asset-13_xzdeac.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_15_v6gnlq.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/19_pwqziy.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/15_forjek.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_17_iamxxb.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset-2_z05d3l.webp"
+    ],
+    "text": "Follow here to know more about our hiring partners?"
+  },
+  "Placements": {
+    "Title": "Alchemyst Recruitment Essentials Program",
+    "content": [
+      {
+        "ContentTitle": "Portfolio Building",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664398/website/fullstack%20/Portfolio_t4uolq.png",
+        "description": "Get our placement mentor's help in building a beautiful Online Portfolio, LinkedIn profile and Resume."
+      },
+      {
+        "ContentTitle": "Soft Skills Training",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664398/website/fullstack%20/Skill_ctjsmo.png",
+        "description": "Get the best-in-class soft skills and placement readiness training with our invigorated soft skills and life skills training."
+      },
+      {
+        "ContentTitle": "Placement Series",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664399/website/fullstack%20/Experts_aicopk.png",
+        "description": "Industry experts at your hand for the latest placement trends. Gain insights into what is happening in the tech industry."
+      },
+      {
+        "ContentTitle": "Interview Training",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664399/website/fullstack%20/interviewstraining_fpyfdx.png",
+        "description": "Curated training to crack any technical & HR interviews. Mock Interviews are conducted to guard you against the interview fears."
+      },
+      {
+        "ContentTitle": "Hiring from us",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664399/website/fullstack%20/hirefromus_k3ada5.png",
+        "description": "500+ recruitment partners are actively hiring from us right now as you are reading through these lines. So be a part of it."
+      },
+      {
+        "ContentTitle": "Placement Webinars",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664398/website/fullstack%20/placement-webinar_ygk4kj.png",
+        "description": "Regular placement webinars are planned for you to get the most out of cracking any recruitment formats during this time."
+      }
+    ]
+  },
+  "FAQ": [
+    {
+      "Question": "What is the duration of the program?",
+      "Answer": "The Fundamentals classes would take about two months to complete; after that, the duration would depend on the career path you select."
+    },
+    {
+      "Question": "How do I choose my career path?",
+      "Answer": "In the Alchemyst 2.O program, you will be learning the fundamentals of programming for the first 2 months, and you can also decide which career path and skills to pursue. To upskill yourself to bring out the best in you."
+    },
+    {
+      "Question": "How is the Alchemyst 2.0 program different from other courses?",
+      "Answer": "In the Alchemyst 2.O program you can learn the basics of programming and also decide which career path and skills to upskill yourself in order to bring out the best in you."
+    },
+    {
+      "Question": "Is this program meant for beginners?",
+      "Answer": "Absolutely. The program is designed to help you understand fundamental concepts and build up to advanced concepts."
+    },
+    {
+      "Question": "I do not have a technical background. Is it possible for me to learn programming?",
+      "Answer": "Absolutely! You can still learn programming even if you come from a non-technical background. Anyone can quickly become prepared for a tech job with the help of SkillSafari's Alchemyst 2. O program. The programme is best suited for students in their final year, job seekers, and people who want to switch to a tech career. Programming is a skill that can be learned with practice, commitment, and the right direction. Nothing prevents you from joining the programme and landing a tech job, regardless of your degree, branch, grades, or backlogs. You are not required to have any prior coding experience. You’ll learn everything from scratch. Because of your prior experiences, you might be scared to code. However, our enthusiastic instructors will make every concept simple and incorporate teaching strategies supported by science."
+    },
+    {
+      "Question": "What if I can't make it to the training sessions?",
+      "Answer": "Can't make it to the training session? No problem! All sessions are recorded, and you will have lifetime access to the recordings."
+    },
+    {
+      "Question": "How many hours per day should I commit to this program?",
+      "Answer": "We would say you will need a minimum of 2 - 3 hours of commitment per day."
+    },
+    {
+      "Question": "What are logistics required for this program?",
+      "Answer": "Minimum 1 Mbps download speed.<br/><ul style={{ listStyleType: 'disc' }}><li>Minimum Computer Hardware Specs -<ul><li>&bull;1 GHz Processor</li><li>&bull;4 GB RAM</li><li>&bull;128 GB Hard Drive</li><li>&bull;Microphone</li><li>&bull;Webcam</li><li>&bull;Smart Mobile Phone for Skill Safari App Access</li></ul></li></ul>"
+    },
+    {
+      "Question": "When Will I get a certificate?",
+      "Answer": "You will receive a course completion certificate only after 100% completion of the program."
+    },
+    {
+      "Question": "Will there be any possibility that the course might be extended beyond the given stipulated time?",
+      "Answer": "The course will not be delayed from Skill Safari's end. But Yes, based on the candidates' request or personal reasons, we may extend the dates. However, this would be done with a proper intimation to the batch and based on the custom plan the progress will be intimated to all the students. We do this to ensure that none of the candidates are missed out on the pace of the program."
+    },
+    {
+      "Question": "What will be the evaluation process in the program?",
+      "Answer": "You will have a set of deliverables throughout the program viz. Assignments, Monthly Assessments, Monthly One-One Review calls, Project reviews etc., you have to make sure you finish everything within a stipulated time."
+    },
+    {
+      "Question": "What will happen if you fail the evaluation process?",
+      "Answer": "You will be given multiple attempts and you have to redo any particular deliverable. However, if you are still not able to complete the evaluation, you will be shifted to another batch."
+    },
+    {
+      "Question": "Classes will be in online or offline mode?",
+      "Answer": "Skill Safari is the best institute for Mern Stack, Data Analytics, and Automation testing in Coimbatore. Currently, we are conducting only offline mode classes."
+    }
+  ],
+  "Knowmore": {
+    "Title": "Want to know more about Alchemyst 2.0?",
+    "Content": "Want to know how you can join the cohort? or if you have any questions, feel free to connect with our career counsellors."
+  },
+  "CardCarousel": {
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1701061224/website/testimonials/Selvakumar_wuqaxn.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1701061234/website/testimonials/Krishnakumar_dismrh.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1701061226/website/testimonials/Aniket_ourmxh.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1701061233/website/testimonials/Meenaz_Farheen_rnzx1m.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1701061232/website/testimonials/Krithi_Hemanth_hyfarr.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1701061230/website/testimonials/Niharika_f6rynf.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1701061232/website/testimonials/Krithi_Hemanth_hyfarr.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1701061232/website/testimonials/Krithi_Hemanth_hyfarr.webp"
+    ],
+
+    "descriptions": [
+      "Now I have good exposure to building a website and knowledge of full-stack technology. During my training period, I developed various projects like tic-tac-toe, quote generator, to-do checklist, e-commerce. I got placed in a company through the interview provided by Skill Safari.",
+      "I was amazed by the kinds of technology that are out there in the market but didn't know how to use any of them. I was in a tight schedule trying hard to get enough time to balance my work and studies. The trainers, who are very well experienced and cooperative along with the supporting staff, made a lot of things easier in the journey.",
+      "Skill Safari is an awesome skill development platform. I have learned lots of things, not only technical skills but also real-life things. All teams are very helpful in any situation. Thank you, dear Skill Safari team for developing my career life.",
+      "The teaching from the beginning was carried out in the most professional and friendly way. The trainers were very involved in helping me out with doubts at every time. I feel great satisfaction in learning under you guys and glad that every penny that I spent is worth the knowledge that you guys provided me. It's completely rare to have friendly trainers; it's an important factor that you guys excelled in.",
+      "The best live educational platform I have ever come across. Each and every mentor over here takes utmost care of each and every person and helps in every way possible. I really feel overwhelmed and so grateful being one of the students of Skill Safari. Thank you Skill Safari!",
+      "I got to know about Skill Safari from my college mentor, and I'm very thankful for that. I wasn't a computer student in my schooling and PUC, and I lacked self-confidence, but from this program, it gave me self-confidence, and most importantly, I gained a lot of interest forever thankful for it.",
+      "One thing that impressed me about Skill Safari is if I have a question there is always a quick response. I'm already applying what I learned. Course content are Excellent, assignments that we build increase our knowledge, mentoring approach were good. The instructors did a good job of communicating and making it a more intimate arrangement.",
+      "We had a good conversation with mentors and the teaching skills were awesome and they were allowed us to contact them for any doubt and at any time and this might won't happen many times as their teaching was very good and we understood each and ever bit. It will be much worth each rupee you paid and it also not cost too much."
+    ],
+    "rating": ["4.7", "4.5", "4.3", "4.7", "4.5", "4.3", "4.5", "4.5"],
+    "reviewer": [
+      "SelvaKumar",
+      "Krishnakumar P B",
+      "Aniket Prakashrao Dhage",
+      "Dharshini",
+      "Meenaz Farheen Shaik",
+      "Niharika Kiran",
+      "Krithi Hemanth",
+      "Sumanth Valiveti"
+    ],
+    "place": ["Phicode, Coimbatore", "", "", "", "", "TCS, Kochi", "", ""]
+  }
+}
