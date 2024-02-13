@@ -1,0 +1,96 @@
+{
+  "homeScreenComponent": {
+    "left": {
+      "content_1": "Introduction to Data Analytics with MS Excel",
+      "content_2": "Join the “Introduction to Data Analytics with MS Excel” LIVE Webinar. Mr. Kishore Kammela, Co-Founder of Skill Safari, can also teach you about the significance of MS Excel in Data Analytics.",
+      "content_3": "Join Now",
+      "CourseFee": "1000",
+      "currentFee": "Free",
+      "date": "Coming Soon"
+    },
+    "right": {
+      "image_src": "https://res.cloudinary.com/skill-safari/image/upload/v1650542293/website/events/eventHeader1_wejqx8.png",
+      "thoughts": "All teachers are professionals and very cooperative and clear each and every doubt too. - Yeeshu Saket",
+      "rating": "4.7/5"
+    }
+  },
+  "What_You_Will_Learn": {
+    "title": "What You'll learn ? ",
+    "Learn_Points_1": "Interactive Live Sessions",
+    "Learn_Points_2": "Real World Assignments",
+    "Learn_Points_3": "Learn with a lively community"
+  },
+  "Learn_Process": {
+    "process_1": {
+      "title": "Understanding the basics of data analytics"
+    },
+    "process_2": {
+      "title": "Applying data analytics concepts to real-world scenarios"
+    },
+    "process_3": {
+      "title": "Exploring essential Excel functions and formulas for data analysis"
+    },
+    "process_4": {
+      "title": "Visualising data effectively with charts and graphs"
+    },
+    "Brand_Ambassador": "https://res.cloudinary.com/skill-safari/image/upload/v1650940480/website/events/ab4_io0ral.jpg"
+  },
+  "Program_title": "Who is this program for?",
+  "Program_content": [
+    { "program_name": "Entrepreneurs" },
+    { "program_name": "Bloggers" },
+    { "program_name": "Freelancers" },
+    { "program_name": "Copywriters" },
+    { "program_name": "Creative Writers" },
+    { "program_name": "Content Creators" },
+    { "program_name": "Social Media Marketers" },
+    { "program_name": "Students" },
+    { "program_name": "Frustrated Corporate Employees" },
+    { "program_name": "Career Change Aspirants" }
+  ],
+  "Apply_title": "Think it's a match? Apply Now",
+  "Trainer_title": "Meet your Trainers",
+  "Trainer_name": "Kishore Kammela",
+  "Trainer_role": "Co-Founder - Skill Safari",
+  "Trainer_image": "https://res.cloudinary.com/skill-safari/image/upload/v1650004266/website/trainers/kishore_ruan1n.png",
+  "Trainer_about": "Kishore has more than six years of professional experience and is highly ambitious and motivated. I have held various positions requiring me to create and market cutting-edge products with the primary goal of assisting businesses in growing while working in the education and operations-heavy industries.",
+  "Certificate_page": {
+    "title_1": "Yes, you will be certified with this program",
+    "title_2": "Yes! You will be certified for this program once you submit your assignment.",
+    "left_side": {
+      "pink_title_1": "Official and Verified",
+      "content_1": "Receive an instructor-signed certificate with the institution's logo to verify your achievements and increase your job prospects.",
+      "pink_title_2": "Easily Shareable",
+      "content_2": "Add the certificate to your CV or your Resume or post it directly on Linkedin. You can even post it on Instagram and Twitter.",
+      "pink_title_3": "Enhances Credibility",
+      "content_3": "Use your certificate to enhance your professional credibility and stand out among your peers!"
+    },
+    "right": "https://res.cloudinary.com/skill-safari/image/upload/v1689917271/internship-certificate_yvrmi3.jpg"
+  },
+  "FAQ": [
+    {
+      "Question": "What is this webinar about?",
+      "Answer": "This webinar is about Mastering Data Analytics with MS Excel."
+    },
+    {
+      "Question": "What is the minimum system requirement needed? Do I need to install any extra software?",
+      "Answer": "A Processor Speed of 1.6 GHz, a minimum of 4GB RAM is preferred, and a Microphone. No for this webinar, you don’t need any extra software except for the webinar platform which will be the Zoho Meeting platform."
+    },
+    {
+      "Question": "Who this webinar is for?",
+      "Answer": "You should be between 15 to 28 years of age group and must have passed 12th grade."
+    },
+    {
+      "Question": "What will I get out of this webinar?",
+      "Answer": "The schedule is specifically designed to make you understand if Software Development is the right career path for you."
+    },
+    {
+      "Question": "Do I have to pay for this webinar?",
+      "Answer": "No, this is a free webinar"
+    },
+    {
+      "Question": "Will I get any certification for this webinar?",
+      "Answer": "Yes, if you attend this webinar till the end and submit the questionnaire we give you, you will get a certificate."
+    }
+  ]
+}

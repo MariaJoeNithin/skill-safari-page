@@ -25,7 +25,7 @@ const Company = () => {
       <p className="p-2 my-5 text-center w-full">{companies.text}</p>
       <div className="flex justify-center items-center">
         <button className="w-fit md:px-28 px-5 bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300">
-          Enroll Now
+          Know More
         </button>
       </div>
     </div>

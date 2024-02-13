@@ -1,11 +1,7 @@
 {
   "Section1": {
     "Title1": "Join with us to become a",
-    "Position": [
-      "QA Automation Tester",
-      "Data Analyst",
-      "Full Stack Developer|"
-    ],
+    "Position": ["QA Automation Tester", "Data Analyst", "Full Stack Develope"],
     "Title2": "with Assured Placement",
     "Description": "Enroll now & Get trained in skills that are essential to secure your dream job in our full-stack developer course. The course offers 100% Assured Placement, In leading tech companies with a salary No less than 4 LPA. Feel free to get in touch with us for more details",
     "BatchStart": { "Next Batch Starts": "Coming Soon" }
