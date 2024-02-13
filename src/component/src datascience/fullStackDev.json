@@ -1,0 +1,306 @@
+{
+  "Section1": {
+    "Title": "Data science & Machine Learning Expert Program with Placement Assistance",
+    "Description": "Get Best-in-class quality training from our leading industrial experts",
+    "BatchStart": { "Next Batch Starts": "Coming Soon" }
+  },  
+  "Section2": {
+    "Title": "Full Stack Developer Course highlights",
+    "subHeading": {
+      "imgCaption": [
+        "100% Placement Guarantee",
+        "7 Months Live Course",
+        "1 - 1 Mentorship support",
+        "Learn & Earn Community access",
+        "Outcome Based Learning",
+        "Insights from Industry Experts",
+        "Project based learning",
+        "Recruitment Training"
+      ],
+      "images": [
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854406/website/sales_icons/icon_1_aeldi0.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_2_leji5r.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_3_k8akza.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_4_xjdqf4.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854406/website/sales_icons/icon_5_p7o5wc.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854406/website/sales_icons/icon_6_dntusg.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_7_wztmae.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_8_nxwlkc.png"
+      ]
+    }
+  },
+  "Section3": {
+    "Title": "We are accredited by",
+    "Images": [
+      {
+        "src": "https://res.cloudinary.com/skill-safari/image/upload/v1688626100/website/web%20images/nasscom_ivm0o1.webp",
+        "alt": "Image 1"
+      },
+      {
+        "src": "https://res.cloudinary.com/skill-safari/image/upload/v1688626100/website/web%20images/iabac_lsk3ij.webp",
+        "alt": "Image 2"
+      },
+      {
+        "src": "https://res.cloudinary.com/skill-safari/image/upload/v1688626100/website/web%20images/skill_india_nff8zb.webp",
+        "alt": "Image 3"
+      }
+    ]
+  },
+  "Section4": {
+    "Title": "Outcome Based Learning",
+    "Headings": ["We at Skill Safari religiously believe in the principles of outcome-based learning."],
+    "Images": [
+      {
+        "src": "https://res.cloudinary.com/skill-safari/image/upload/v1683791598/OBL_2_1_k04m36.webp",
+        "alt": "Image 1"
+      }
+    ]
+  },
+  "section5": {
+    "Title": "Get Certified",
+    "Rows": [
+      {
+        "Heading": "After completion of all projects & tasks, you will get a certificate of Data Science and Machine Learning",
+        "Image": {
+          "src": "https://res.cloudinary.com/skill-safari/image/upload/v1689917271/internship-certificate_yvrmi3.jpg",
+          "alt": "Image 1"
+        }
+      }
+    ]
+  },
+  "section6": {
+    "Title": "Get IABAC Certified",
+    "Rows": [
+      {
+        "Image": {
+          "src": "https://res.cloudinary.com/skill-safari/image/upload/v1693822285/IABAC_certificate_havoad.jpg",
+          "alt": "Image 1"
+        },
+        "Heading": "And the interesting thing over here is: After completion of this course successfully, you will be eligible for the exam which is conducted by IABAC."
+      }
+    ]
+  },
+  "Alchemyst Advantage": {
+    "Title": "What's unique about our Full-stack developer Course?",
+    "subTopic": {
+      "images": [],
+      "subTitle": ["Get a Quality Training", "What's really in it for you?"],
+      "Text": [
+        "Get best-in-class quality training from leading professionals working in India working with real-time projects.",
+        "We help students with determination and help them acquire full-stack developer skills to secure their dream job."
+      ]
+    }
+  },
+  "How Skill Safari work": {
+    "Title": "How does Skill Safari's Full Stack Developer Program work? ",
+    "images": []
+  },
+  "Outcome Based Learning": {
+    "title": "Outcome Based Learning",
+    "text": "We at Skill Safari religiously believe in the principles of outcome-based learning.",
+    "images": []
+  },
+  "Course Curriculum": {
+    "Title": "Data Science & Machine Learning Curriculum",
+    "WeekSchedule": [
+      {
+        "week": "Week 1-4",
+        "moduleTitle": "Introduction to Data Analysis",
+        "description": "Who is a Data Scientist, Opportunities in the industry of Data, Business analysis with Excel, Basics and Advanced Excel Functions, Pivots and Charts in Excel"
+      },
+      {
+        "week": "Week 5 - 7",
+        "moduleTitle": "SQL for Data Analysis",
+        "description": "Introduction to Structured Query Language, SQL lite installation, Data Definition Commands, Data manipulation command, Basics of Database Rules"
+      },
+      {
+        "week": "Week 8 - 10 ",
+        "moduleTitle": "Statistics and Probability",
+        "description": "Central tendency, Variability, Hypothesis testing, ANOVA, Correlation, Regression, Probability definitions and notations, Joint probabilities, The sum rule, Conditional probability"
+      },
+      {
+        "week": "Week 11 - 20 ",
+        "moduleTitle": "Python for Data Analysis",
+        "description": "Python variables, data types, and keywords, Mathematical Computing using Nympy, Data Manipulation using Pandas, Data Visualisation using Matplotlib, Exploratory Data Analysis using Python and Python Libraries"
+      },
+      {
+        "week": "Week 21 - 23 ",
+        "moduleTitle": "Data Visualisation using Power BI",
+        "description": "Why Power BI?, Introduction to Power BI and its Products, Data Loading process (Extract v/s Live), Basic Functions (Aggregate, String, Date etc.) and Charts (Bar, Pie, Line, Combo etc.)"
+      },
+      {
+        "week": "Week 24 - 26 ",
+        "moduleTitle": "Machine Learning with Python",
+        "description": "Supervised Learning, Unsupervised Learning, Reinforcement Learning, Logistic regression, Decision tree, Confusion Matrix, Random Forest, SVM, XGBoost, Dimensionality Reduction"
+      },
+      {
+        "week": "Week 24 - 26 ",
+        "moduleTitle": "Machine Learning with Python",
+        "description": "Supervised Learning, Unsupervised Learning, Reinforcement Learning, Logistic regression, Decision tree, Confusion Matrix, Random Forest, SVM, XGBoost, Dimensionality Reduction"
+      }
+    ]
+  },
+  "Instructors": {
+    "title": "Meet your Instructors",
+    "InstructorDetails": [
+      {
+        "Kishore Kammela": {
+          "images": [],
+          "profileLink": ["https://www.linkedin.com/in/kskishorebabu/"],
+          "workPlace": "Skill Safari"
+        }
+      },
+      {
+        "Sathish": {
+          "images": [],
+          "profileLink": ["https://www.linkedin.com/in/anotherinstructor/"],
+          "workPlace": "Skill Safari"
+        }
+      },
+      {
+        "Dilip": {
+          "images": [],
+          "profileLink": ["https://www.linkedin.com/in/anotherinstructor/"],
+          "workPlace": "Paypal"
+        }
+      }
+    ]
+  },
+  "content": {
+    "title": "Want to know more about Alchemyst 2.0?",
+    "description": "Want to know how you can join the cohort? or if you have any questions, feel free to connect with our career counsellors.",
+    "buttons": [
+      {
+        "text": "Call Us",
+        "className": "button-1"
+      },
+      {
+        "text": "Whatsapp Us",
+        "className": "button-2"
+      }
+    ]
+  },
+  "fees": {
+    "title": "Data Science and Machine Learning Experts Course Fees",
+    "cards": [
+      {
+        "text1": "Online Program Fees",
+        "text2": "Rs 80,000/-",
+        "text3": "₹40,000 + GST",
+        "text4": "EMI options are available with 0% interest",
+        "text5": "3,6,9 Months based on CIBIL Score"
+      },
+      {
+        "text1": "Offline Program Fees",
+        "text2": "  Rs 1,30,000/-",
+        "text3": "₹60,000 + GST",
+        "text4": "EMI options are available with 0% interest",
+        "text5": "3,6,9 Months based on CIBIL Score"
+      }
+
+    ]
+  },
+  "slots": {
+    "text": "Only few slots left, So Enroll now to grab this opportunity",
+    "className": "button",
+    "button": "Enroll Now"
+},
+
+
+  "admission": {
+    "title": "How does Skill Safaris Data Science & Machine Learning Program work:",
+    "subheadings": [
+      {
+        "title": "Admission",
+        "paragraph": "Get enrolled in our Data Science and Machine Learning experts program and start skilling up"
+      },
+      {
+        "title": "Get Training",
+        "paragraph": "Here, you will be having 2 phases",
+        "subheadings1": [
+          {
+            "list1": "Get best-in-class quality training from our industrial experts. And also, you will be working on real-time projects.",
+            "list2": "Hearing this word, come to our mind is communication enhancement, soft skill training, interpersonal skill training. Apart from this, we at Skill Safari provide training like analytical approach, thinking out of the box, decision making, attention to detail, and most importantly, storytelling."
+          }
+        ]
+      },
+      {
+        "title": "Project Completion",
+        "paragraph": "After completion of each module, you will be assigned with some tasks, projects, and assessments. So, it should be completed then and there. It is very important to move your profile for further process."
+      },
+      {
+        "title": "Certification",
+        "paragraph": "After completion of your projects successfully, you will be eligible for our certification. As Skill Safari is an Authorized partner of IABAC, you will also be eligible for getting an IABAC Certificate after completion of the exam."
+      },
+      {
+        "title": "Placement",
+        "paragraph": "Our corporate relation team will schedule the interviews in different companies. You can attend and crack the interview with a minimum package of 4 LPA to 20 LPA."
+      }
+    ]
+  },
+  "companys":{
+    "title": "Hiring Partners",
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876564/two-hiring-partners/partner-1_msmjyq.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_14_zgcnk5.webp",     
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876564/two-hiring-partners/Asset_7_bwqbuf.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876564/two-hiring-partners/Asset_8_lbyf1f.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_16_j2bscv.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_10_gj8qzf.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876564/two-hiring-partners/Asset-13_xzdeac.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_15_v6gnlq.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/19_pwqziy.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/15_forjek.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset_17_iamxxb.webp",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1683876565/two-hiring-partners/Asset-2_z05d3l.webp"
+    ],
+    "text":"Follow here to know more about our hiring partners?",
+    "className": "button",
+    "button": "Enroll Now"
+  },
+  "FAQ": [
+    {
+      "Question": "Who can enroll in this course?",
+      "Answer": "People who are passionate and motivated and want to finish a rigorous 6-month Data Science Course are eligible. This includes MBA/MCA graduates as well as graduates with backgrounds in engineering or the arts."
+
+    },
+    {
+      "Question": "Who is a Data Scientist?",
+    
+      "Answer": "Data scientists are skilled analysts who combine their knowledge of social science and technology to spot trends and manage data efficiently."
+    },
+    {
+      "Question": "Why do companies recruit Data scientist?",
+     "Answer":" Data Scientists/Analysts empower business leaders/executives to make informed decisions based on data, a critical component of business operation and growth."
+    },
+   {
+     "Question": "How does Data Science differ from Big Data and Data Analytics?",
+      "Answer": "Big Data refers to large amounts of structured or unstructured data, whereas analytics is concerned with turning knowledge into strategies that can be put into practice."
+    },
+    {
+      "Question": "Is a strong math background mandatory?",
+       "Answer": "The toolkit comes with all the necessary programs and libraries to complete tasks. Even for those who are unfamiliar with mathematics, understanding concepts and applying algorithms are crucial. ."
+     },
+     {
+      "Question": "Which language is preferable for text analysis, R or Python?",
+       "Answer": "Python provides efficient results for high-quality data analysis thanks to its enriched libraries like Pandas."
+     },
+     {
+      "Question": "Is Data Science a sought-after profession?",
+       "Answer": "Data scientists are included in the broader category of computer and information research scientists, according to the US Bureau of Labour Statistics. Between 2018 and 2028, employment in this field is expected to increase by 16%."
+     },
+     {
+      "Question": "Is an advanced Data Science degree necessary for employment?",
+       "Answer": "While having a degree gives you more credibility, having a solid portfolio of well-done projects is frequently regarded as a viable alternative."
+     },
+     {
+      "Question": "What is the average salary of a data scientist in India?",
+       "Answer": "The average annual salary for data scientists in India is 9.2 lakhs, with salaries ranging from 3.7 lakhs to 25.0 lakhs"
+     }
+  ]
+
+
+}
+
+
+
