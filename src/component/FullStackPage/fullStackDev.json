@@ -1,0 +1,242 @@
+{
+  "Section1": {
+    "Title": "Full Stack Developer Course",
+    "Description": "Enroll now & Get trained in skills that are essential to secure your dream job in our full-stack developer course. The course offers 100% Assured Placement, In leading tech companies with a salary No less than 4 LPA. Feel free to get in touch with us for more details",
+    "BatchStart": { "Next Batch Starts": "Coming Soon" }
+  },
+  "Section2": {
+    "Title": "Full Stack Developer Course highlights",
+    "subHeading": {
+      "imgCaption": [
+        "100% Placement Guarantee",
+        "7 Months Live Course",
+        "1 - 1 Mentorship support",
+        "Learn & Earn Community access",
+        "Outcome Based Learning",
+        "Insights from Industry Experts",
+        "Project based learning",
+        "Recruitment Training"
+      ],
+      "images": [
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854406/website/sales_icons/icon_1_aeldi0.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_2_leji5r.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_3_k8akza.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_4_xjdqf4.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854406/website/sales_icons/icon_5_p7o5wc.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854406/website/sales_icons/icon_6_dntusg.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_7_wztmae.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854405/website/sales_icons/icon_8_nxwlkc.png"
+      ]
+    }
+  },
+
+  "Alchemyst Advantage": {
+    "Title": "What's unique about our Full stack developer Course?",
+    "subTopic": {
+      "images": [
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854913/website/sales_icons/Uniq_1_bmezkp.png",
+        "https://res.cloudinary.com/skill-safari/image/upload/v1651854913/website/sales_icons/uniq_3_tjzulj.png"
+      ],
+      "subTitle": ["Get a Quality Training", "What's really in it for you?"],
+      "Text": [
+        "Get best-in-class quality training from leading professionals working in India working with real-time projects.",
+        "We help students with determination and help them to acquire full-stack developer skills to secure their dream job."
+      ]
+    }
+  },
+  "How Skill Safari work": {
+    "Title": "How does Skill Safari's Full Stack Developer Program work? ",
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1651854139/website/Infograph_2_obw0qm.png"
+    ]
+  },
+  "Outcome Based Learning": {
+    "Title": "Outcome Based Learning",
+    "text": "We at Skill Safari religiously believe in the principles of outcome-based learning.",
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1651929561/website/infograph_2_ynnmkj.png"
+    ]
+  },
+  "Course Curriculum": {
+    "Title": "Full Stack Developer Course Curriculum",
+    "WeekSchedule": [
+      {
+        "week": "Week 1-5",
+        "moduleTitle": "Web Fundamentals",
+        "description": "Introduction to Web, Developer Tools, Fundamentals of Web Development using HTML, CSS. Version Control using Git & GitHub"
+      },
+      {
+        "week": "Week 6-10",
+        "moduleTitle": "Programming with JavaScript",
+        "description": "Introduction to Programming, Functions and OOP Programming, Data Structures and Algorithms with JavaScript"
+      },
+      {
+        "week": "Week 11-15",
+        "moduleTitle": "JavaScript on the Browser",
+        "description": "Advanced JavaScript, Advanced CSS Working with DOM API & Local Storage"
+      },
+      {
+        "week": "Week 16-20",
+        "moduleTitle": "Working with React",
+        "description": "Introduction to React and React Ecosystem, UI Libraries, Deployment & Unit Testing"
+      },
+      {
+        "week": "Week 21-25",
+        "moduleTitle": "Sever Side Development",
+        "description": "HTTP Protocols, Node.js & Node.js architecture, Express.js, MongoDB & Mongoose ORM, OAuth using Passport.js"
+      },
+      {
+        "week": "Week 26-28",
+        "moduleTitle": "Interview Preparation",
+        "description": "Projects and Peer Programming - Work on collaborative projects exploring all concepts and have pair programming sessions to improve the skills"
+      }
+    ]
+  },
+  "Instructors": {
+    "Title": "Meet your Instructors",
+    "InstructorDetails": [
+      {
+        "InstructorName": "Kishore Kammela",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1650004266/website/trainers/kishore_ruan1n.png",
+        "profileLink": ["https://www.linkedin.com/in/kskishorebabu/"],
+        "workPlace": "Skill Safari"
+      },
+      {
+        "InstructorName": "Sathish",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1650004276/website/trainers/Sathish_dxpwrt.png",
+        "profileLink": ["https://www.linkedin.com/in/anotherinstructor/"],
+        "workPlace": "Skill Safari"
+      },
+      {
+        "InstructorName": "Dilip",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1650004303/website/trainers/dilip_nqthaw.png",
+        "profileLink": ["https://www.linkedin.com/in/anotherinstructor/"],
+        "workPlace": "Paypal"
+      }
+    ]
+  },
+  "fees": {
+    "title": "Data Science and Machine Learning Experts Course Fees",
+    "card1": {
+      "title": "Upfront Course Fee",
+      "text1": "Pay program fee of ₹ 75000/",
+      "text2": "* Upto 50% Off - Closing soon"
+    },
+    "card2": {
+      "title": "EMI Options",
+      "text1": "Pay your fee in flexible installment"
+    }
+  },
+  "Certification": {
+    "Title": "Full Stack Developer Course Certification",
+    "text": "Complete all the assignment and projects to earn a certificate of Full Stack Developer Course from Skill Safari. Also, earn a certificate for clearing each module.",
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1689917271/internship-certificate_yvrmi3.jpg"
+    ]
+  },
+  "companys": {
+    "title": "Hiring Partners",
+    "images": [
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549941/website/company-logo/3_udsdou.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/11_fagzql.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/13_tvprkr.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/12_hoj4gr.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/10_qfmlvn.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549939/website/company-logo/5_wgt0xy.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549939/website/company-logo/9_oiozex.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/16_w1til3.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/19_pwqziy.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549940/website/company-logo/15_forjek.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549941/website/company-logo/21_j5k5qa.png",
+      "https://res.cloudinary.com/skill-safari/image/upload/v1650549941/website/company-logo/24_efmagh.png"
+    ],
+    "text": "Follow here to know more about our hiring partners?"
+  },
+  "Placements": {
+    "Title": "Alchemyst Recruitment Essentials Program",
+    "content": [
+      {
+        "ContentTitle": "Portfolio Building",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664398/website/fullstack%20/Portfolio_t4uolq.png",
+        "description": "Get our placement mentor's help in building a beautiful Online Portfolio, LinkedIn profile and Resume."
+      },
+      {
+        "ContentTitle": "Soft Skills Training",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664398/website/fullstack%20/Skill_ctjsmo.png",
+        "description": "Get the best-in-class soft skills and placement readiness training with our invigorated soft skills and life skills training."
+      },
+      {
+        "ContentTitle": "Placement Series",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664399/website/fullstack%20/Experts_aicopk.png",
+        "description": "Industry experts at your hand for the latest placement trends. Gain insights into what is happening in the tech industry."
+      },
+      {
+        "ContentTitle": "Interview Training",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664399/website/fullstack%20/interviewstraining_fpyfdx.png",
+        "description": "Curated training to crack any technical & HR interviews. Mock Interviews are conducted to guard you against the interview fears."
+      },
+      {
+        "ContentTitle": "Hiring from us",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664399/website/fullstack%20/hirefromus_k3ada5.png",
+        "description": "500+ recruitment partners are actively hiring from us right now as you are reading through these lines. So be a part of it."
+      },
+      {
+        "ContentTitle": "Placement Webinars",
+        "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651664398/website/fullstack%20/placement-webinar_ygk4kj.png",
+        "description": "Regular placement webinars are planned for you to get the most out of cracking any recruitment formats during this time."
+      }
+    ]
+  },
+  "FAQ": [
+    {
+      "Question": "Who is a Full Stack Developer?",
+      "Answer": "A person who knows to develop both the frontend and backend portions of a web application alongside hosting it on a web server by connecting a database is called a &ldquo;Full Stack Web Developer&rdquo;."
+    },
+    {
+      "Question": "Why do companies hire Full Stack Developers?",
+      "Answer": "Companies prefer developers who can be work-efficient and as well as cost-efficient. A Full Stack Developer can help with the whole design structure and he also knows to provide input on any level as need be."
+    },
+    {
+      "Question": "What are the skill sets of a Full Stack Developer?",
+      "Answer": "A Full Stack Developer major with front-end technology development languages like HTML5, CSS3, JavaScript, Bootstrap and should know at least one server-side programming language, basic design ability, server management, Version Control System (VCS), and knowledge of web services or API."
+    },
+    {
+      "Question": "What is MERN Stack Web Development?",
+      "Answer": "The term MERN Stack is abbreviated as MongoDB, ExpressJS, ReactJS, NodeJS. MERN is a Full Stack, It follows a 3-tier architectural pattern, including the front-end display tier (React.js), application tier (Express.js and Node.js), and database tier (MongoDB)"
+    },
+    {
+      "Question": "What are logistics required for this program?",
+      "Answer": "Minimum 1 Mbps download speed.<br/><ul style={{ listStyleType: 'disc' }}><li>Minimum Computer Hardware Specs -<ul><li>&bull;1 GHz Processor</li><li>&bull;4 GB RAM</li><li>&bull;128 GB Hard Drive</li><li>&bull;Microphone</li><li>&bull;Webcam</li><li>&bull;Smart Mobile Phone for Skill Safari App Access</li></ul></li></ul>"
+    },
+    {
+      "Question": "What is the duration of the program?",
+      "Answer": "The course duration takes on an average of 7 months. If you are not able to complete the program within the stipulated time, after the one-on-one review, we may consider batch shifting or program extensions based on the discussion."
+    },
+    {
+      "Question": "Will there be any possibility that the course might be extended beyond the given stipulated time?",
+      "Answer": "The course will not be delayed from Skill Safari's end. But Yes, based on the candidates' request or personal reasons, we may extend the dates. However, this would be done with a proper intimation to the batch and based on the custom plan the progress will be intimated to all the students. We do this to ensure that none of the candidates are missed out on the pace of the program."
+    },
+    {
+      "Question": "What does our Full Stack Developer Course teach you?",
+      "Answer": "The Full Stack Developer Course enables you to build an interactive and responsive application using both front-end and back-end technologies. It covers the fundamentals of JavaScript and Advanced JavaScript concepts and guides you to build a remarkable user interface via Angular or React JS. Also, it provides knowledge to test and deploy code and store data using MongoDB."
+    },
+    {
+      "Question": "What will be the evaluation process in the program?",
+      "Answer": "You will have a set of deliverables throughout the program viz. Assignments, Monthly Assessments, Monthly One-One Review calls, Project reviews etc., you have to make sure you finish everything within a stipulated time."
+    },
+    {
+      "Question": "What will happen if you fail the evaluation process?",
+      "Answer": "You will be given multiple attempts and you have to redo any particular deliverable. However, if you are still not able to complete the evaluation, you will be shifted to another batch."
+    }
+  ],
+  "Join_Community": {
+    "images": "https://res.cloudinary.com/skill-safari/image/upload/v1651741962/website/web%20images/Artboard_1_whvu63.jpg",
+    "title": "Alchemyst Community",
+    "content": "Part of the hundreds of activities we have for you. From giveaways to coding challenges, we have everything to keep your mind busy. We also have you covered for the latest news in technology along with getting you new insights about what companies and recruiters are looking for in their candidates. So what are you waiting for? Join the adventure now!"
+  },
+
+  "Knowmore": {
+    "Title": "Want to know more about Full Stack Developer Course?",
+    "Content": "Become a job-ready Full Stack Developer in 28 weeks with a minimum CTC from 4 LPA - 25 LPA. Want to know how you can join the cohort? or if you have any questions, feel free to connect with our experts anytime."
+  }
+}

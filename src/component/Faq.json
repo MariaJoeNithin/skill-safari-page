@@ -1,0 +1,41 @@
+{
+  "FAQ": [
+    {
+      "Question": "What is this Internship Program about?",
+      "Answer": "Learn the practices and preps to become a React Developer and learn how “To build a Web Application” with React.JS in this Internship Program."
+    },
+    {
+      "Question": "What is the minimum system requirement needed? Do I need to install any extra software?",
+      "Answer": "A Processor Speed of 1.6 GHz, a minimum of 4GB RAM is preferred, and a Microphone"
+    },
+    {
+      "Question": "Who this program is for?",
+      "Answer": "You should be between 15 to 28 years of age group and must have passed 12th grade."
+    },
+    {
+      "Question": "How is the Skill Safari program different from other courses?",
+      "Answer": "Skill Safari’s Internship Program is a 100% practical training program. Unlike other courses that teach you only the theory, you will learn by doing in this program You will also be helped by experienced mentors who will solve any doubts you may have with dedicated Q&A sessions."
+    },
+    {
+      "Question": "Is this program meant for beginners?",
+      "Answer": "Absolutely. The program is designed to help you understand from a fundamental level and build it up to advanced concepts."
+    },
+    {
+      "Question": "How long will this course take?",
+      "Answer": "The program will last for 5 weeks."
+    },
+    {
+      "Question": "How many hours per day should I commit to this program?",
+      "Answer": "I would say you will need a minimum of 6-7 hours of commitment per week or 1 hour per day."
+    },
+    {
+      "Question": "Will I get a certificate?",
+      "Answer": "Yes, you will receive an industry-recognised course completion certificate that you can proudly show to your friends and family. But you must complete assignments to receive the certificate."
+    }
+  ],
+  "Left_side" : {
+    "title" : "Can’t find the answer you’re looking for?",
+    "image_src" : "https://res.cloudinary.com/skill-safari/image/upload/v1678446069/website/internship/Artboard_3_qo7zxu.png",
+    "email_btn" : "Email Us"
+  }
+}

@@ -1,0 +1,16 @@
+
+.text-container {
+    /* height: 60px;
+    overflow: hidden;
+    white-space: nowrap;
+    width: fit-content;
+    border-bottom: 10px solid #fff; */
+  
+    overflow: hidden;
+    min-height: 55px;
+    background: linear-gradient(90deg, #2699fb, #f3274f);
+    background-clip: text;
+    color: transparent;
+    /* display: inline-block; */
+  }
+  

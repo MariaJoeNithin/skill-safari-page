@@ -1,18 +1,14 @@
-import React from "react";
-// import jsonData from "./fullStackDev.json";
-import "./Components/shadowCss.css";
-// import LearningHub from "./Components/learningHub";
-// import Webdev from "./Components/events-webdev/Events-WebDev";
-import Msexcel from "./Components/events-MSexcel/Events-MsExcel";
+import React from 'react';
+import SkillSafariNavigationBar from './component/header';
+import Help from './component/Help';
 
-const App = () => {
+function App() {
   return (
-    <>
-      {/* <LearningHub /> */}
-      {/* <Webdev /> */}
-      <Msexcel />
-    </>
-  );
-};
+    <div>
+      <SkillSafariNavigationBar />
+      <Help />
+    </div>
+  )
+}
 
-export default App;
+export default App

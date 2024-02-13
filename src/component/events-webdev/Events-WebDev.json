@@ -1,0 +1,116 @@
+{
+  "homeScreenComponent": {
+    "left": {
+      "content_1": "Build a web developer portfolio to get hired in 2023",
+      "content_2": "Join us LIVE and learn the practices and preps to become a Full Stack Developer and learn how “To build a Quiz Application” with Node.JS in this workshop. At the end of the workshop, you will already have developed an application all by yourself, so there will be enough proof of whether you can code or not. Join this workshop with our Lead Instructor Mr. Kishore and our Co-Founder Mr.Naveen Chandran.",
+      "content_3": "Join Now",
+      "CourseFee": "1000",
+      "currentFee": "Free",
+      "date": "Coming Soon"
+    },
+    "right": {
+      "image_src": "https://res.cloudinary.com/skill-safari/image/upload/v1650542293/website/events/eventHeader1_wejqx8.png",
+      "thoughts": "All teachers are professionals and very cooperative and clear each and every doubt too. - Yeeshu Saket",
+      "rating": "4.7/5"
+    }
+  },
+  "aboveCnt": [
+    {
+      "title": "Date",
+      "content": "Coming Soon"
+    },
+    {
+      "title": "Total Duration",
+      "content": "2 Hours Live"
+    },
+    {
+      "title": "Time",
+      "content": "8PM to 10PM"
+    },
+    {
+      "title": "Bonuses Worth",
+      "content": "Free Certification"
+    }
+  ],
+  "What_You_Will_Learn": {
+    "title": "What You'll learn ? ",
+    "Learn_Points_1": "Interactive Live Sessions",
+    "Learn_Points_2": "Real World Assignments",
+    "Learn_Points_3": "Learn with a lively community"
+  },
+  "Learn_Process": {
+    "process_1": {
+      "title": "Who is a Full Stack Web Developer?",
+      "content": "Get to know who is a Full Stack Web Developer and what are the available stacks."
+    },
+    "process_2": {
+      "title": "Roadmap to become a Full Stack Web Developer",
+      "content": "Know the complete roadmap to become a Full-Stack Developer. Guidance to learn different technologies, frameworks, libraries and VCS"
+    },
+    "process_3": {
+      "title": "Try building your application",
+      "content": "Hands-On experience in building a quiz application using Node.js. You'll know how an application is developed and launched."
+    },
+    "process_4": {
+      "title": "Brief Introduction of courses offered by Skill Safari",
+      "content": "Get to know our Job Guaranteed Skill-Up Cohorts"
+    },
+    "Brand_Ambassador": "https://res.cloudinary.com/skill-safari/image/upload/v1650940480/website/events/ab4_io0ral.jpg"
+  },
+  "Program_title": "Who is this program for?",
+  "Program_content": [
+    { "program_name": "Entrepreneurs" },
+    { "program_name": "Bloggers" },
+    { "program_name": "Freelancers" },
+    { "program_name": "Copywriters" },
+    { "program_name": "Creative Writers" },
+    { "program_name": "Content Creators" },
+    { "program_name": "Social Media Marketers" },
+    { "program_name": "Students" },
+    { "program_name": "Frustrated Corporate Employees" },
+    { "program_name": "Career Change Aspirants" }
+  ],
+  "Apply_title": "Think it's a match? Apply Now",
+  "Trainer_title": "Meet your Trainers",
+  "Trainer_image": "https://res.cloudinary.com/skill-safari/image/upload/v1687843369/website/internship/website_KISHORE_BRO_n94zc0.webp",
+  "Trainer_about": "Kishore is a highly motivated and ambitious individual with over 6 years of work experience. I have worked in the education and operation-heavy industries and have taken up various roles that required me to build and market innovative products, with the core objective of helping businesses grow.",
+  "Certificate_page": {
+    "title_1": "Yes, you will be certified with this program",
+    "title_2": "Yes! You will be certified for this program once you submit your assignment.",
+    "left_side": {
+      "pink_title_1": "Official and Verified",
+      "content_1": "Receive an instructor-signed certificate with the institution's logo to verify your achievements and increase your job prospects.",
+      "pink_title_2": "Easily Shareable",
+      "content_2": "Add the certificate to your CV or your Resume or post it directly on Linkedin. You can even post it on Instagram and Twitter.",
+      "pink_title_3": "Enhances Credibility",
+      "content_3": "Use your certificate to enhance your professional credibility and stand out among your peers!"
+    },
+    "right": "https://res.cloudinary.com/skill-safari/image/upload/v1689917271/internship-certificate_yvrmi3.jpg"
+  },
+  "FAQ": [
+    {
+      "Question": "What is this workshop about?",
+      "Answer": "Learn the practices and preps to become a Full Stack Developer and learn how “To build a Quiz Application” with Node.JS in this workshop."
+    },
+    {
+      "Question": "What is the minimum system requirement needed? Do I need to install any extra software?",
+      "Answer": "A Processor Speed of 1.6 GHz, a minimum of 4GB RAM is preferred, and a Microphone. No for this webinar, you don’t need any extra software except for the webinar platform which will be the Zoho Meeting platform."
+    },
+    {
+      "Question": "Who this webinar is for?",
+      "Answer": "You should be between 15 to 28 years of age group and must have passed 12th grade."
+    },
+    {
+      "Question": "What will I get out of this webinar?",
+      "Answer": "The schedule is specifically designed to make you understand if Software Development is the right career path for you."
+    },
+    {
+      "Question": "Do I have to pay for this webinar?",
+      "Answer": "No, this is a free webinar"
+    },
+    {
+      "Question": "Will I get any certification for this webinar?",
+      "Answer": "Yes, if you attend this webinar till the end and submit the questionnaire we give you, you will get a certificate."
+    }
+  ]
+}
