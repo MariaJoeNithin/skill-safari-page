@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main_content from "./component/main_content";
+import LoginPage from "./page/login";
 import App from "./App";
 import InternProgram from "./component/InternProgram";
 import LearningHubPg from "./component/LearningHubPage/LearningHubPg";
