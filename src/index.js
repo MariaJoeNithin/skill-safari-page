@@ -4,6 +4,7 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Main_content from "./component/main_content";
+
 import App from "./App";
 import InternProgram from "./component/InternProgram";
 import LearningHubPg from "./component/LearningHubPage/LearningHubPg";
@@ -22,12 +23,24 @@ root.render(
     <App />
     <Routes>
       <Route path="/" element={<Main_content />} />
-      <Route path="/full-stack-developer-course" element={<FullStackPageApp />} />
-      <Route path="/data-science-machine-learning/data-science-machine-learning-experts" element={<DataSciencepg />} />
+      <Route
+        path="/full-stack-developer-course"
+        element={<FullStackPageApp />}
+      />
+      <Route
+        path="/data-science-machine-learning/data-science-machine-learning-experts"
+        element={<DataSciencepg />}
+      />
       <Route path="/learning-hub" element={<LearningHubPg />} />
       <Route path="/hire-from-us" element={<HireFrmUs />} />
-      <Route path="/build_a_web_developer_portfolio_to_get_hired_in_2024" element={<Webdev />} />
-      <Route path="/Introduction_to_data_analytics_with_MS_Excel" element={<Msexcel />} />
+      <Route
+        path="/build_a_web_developer_portfolio_to_get_hired_in_2024"
+        element={<Webdev />}
+      />
+      <Route
+        path="/Introduction_to_data_analytics_with_MS_Excel"
+        element={<Msexcel />}
+      />
       <Route path="/Web_Development_Internship" element={<InternProgram />} />
       <Route path="/data_analytics_internship" element={<Data_Analyst />} />
       <Route path="/Enroll" element={<Enroll />} />
