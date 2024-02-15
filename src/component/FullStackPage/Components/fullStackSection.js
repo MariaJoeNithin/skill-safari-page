@@ -7,7 +7,7 @@ import Knowmore from "./wantToknowmore";
 
 const FullStackPage = () => {
   const section1 = jsonData.Section1;
-  return (
+  return ( 
     <>
       <section id="Section1" className=" bg-[#1C2042] text-white">
         <div className="container mx-auto max-w-7xl flex flex-col justify-center align-middle">
