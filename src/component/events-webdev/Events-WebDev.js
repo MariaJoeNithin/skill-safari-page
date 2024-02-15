@@ -16,7 +16,7 @@ import CountdownTimer from "../E_BuildPortfolio";
 import Abovetime from "./Abovetime";
 
 function Webdev() {
-  window.scroll(0,0)
+  window.scroll(0, 0);
 
   const webd = WebDevEvents;
   return (
