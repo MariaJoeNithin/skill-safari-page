@@ -4,7 +4,6 @@ import ContactForm from "./clientForm";
 import Section2 from "./Section2";
 import Section3 from "./Section3";
 import Knowmore from "./wantToknowmore";
-import Popup from "../../popUP";
 
 const FullStackPage = () => {
   const section1 = jsonData.Section1;
@@ -35,11 +34,10 @@ const FullStackPage = () => {
       <section id="Section3">
         <Section3 />
       </section>
-      <section id="Section4" >
+      <section id="Section4">
         <Knowmore />
       </section>
-      
-      <Popup  />
+
     </>
   );
 };
