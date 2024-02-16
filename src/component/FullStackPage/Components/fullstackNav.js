@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Popup from "../../popUP";
+import React from "react";
 
 const FullStackNav = () => {
   return (

@@ -1,57 +1,41 @@
 import React, { useState, useEffect } from "react";
+import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 import { portfolioValue } from "../component_src/E_Portfolio";
 
 const CountdownTimer = () => {
-  const initialTime = {
-    days: 224,
-    hours: 24,
-    minutes: 48,
-    seconds: 0,
+  const getCurrentYearEnd = () => {
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    const endDate = new Date(currentYear, 11, 31, 23, 59, 59, 999); // End of the current year
+    const startDate = new Date(currentYear, 1, 1); // February 1st of the current year
+    return { startDate, endDate };
   };
 
-  const [time, setTime] = useState(initialTime);
+  const getRemainingTime = (endDate) => {
+    const now = new Date();
+    const difference = endDate.getTime() - now.getTime();
+
+    // Calculate days, hours, minutes, and seconds
+    const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+    return { days, hours, minutes, seconds };
+  };
+
+  const [time, setTime] = useState(getRemainingTime(getCurrentYearEnd().endDate));
+  const [value, setValue] = useState(80); // You can change the percentage here
 
   useEffect(() => {
     const interval = setInterval(() => {
-      if (
-        time.days === 0 &&
-        time.hours === 0 &&
-        time.minutes === 0 &&
-        time.seconds === 0
-      ) {
-        clearInterval(interval);
-        // Perform any action when the countdown reaches zero
-        console.log("Countdown reached zero!");
-      } else {
-        const newTime = { ...time };
-        if (newTime.seconds > 0) {
-          newTime.seconds--;
-        } else {
-          newTime.seconds = 59;
+      setTime(getRemainingTime(getCurrentYearEnd().endDate));
+    }, 1000);
 
-          if (newTime.minutes > 0) {
-            newTime.minutes--;
-          } else {
-            newTime.minutes = 59;
-
-            if (newTime.hours > 0) {
-              newTime.hours--;
-            } else {
-              newTime.hours = 23;
-
-              if (newTime.days > 0) {
-                newTime.days--;
-              }
-            }
-          }
-        }
-
-        setTime(newTime);
-      }
-    }, 1000); // Update every 1 second (1000 milliseconds)
-
+    // Cleanup function to clear interval when component unmounts
     return () => clearInterval(interval);
-  }, [time]);
+  }, []);
 
   return (
     <div className="w-[800px] max-w-[90%] md:px-10 px-0 py-5 gap-5 flex md:flex-row flex-col items-center md:justify-between justify-center rounded-2xl border mx-auto my-5">
@@ -59,32 +43,47 @@ const CountdownTimer = () => {
       <div className="flex items-center md:gap-10 gap-5 flex-wrap sm:scale-100 scale-75 w-fit">
         <div className="flex items-center flex-col gap-3">
           <div className="font-[700] text-[30px] text-[#222222]">
-            -{time.days}
+            {time.days}
           </div>
           <div className="font-[400] text-[14px] text-[#6f6f6f]">Days</div>
         </div>
         <div className="flex items-center flex-col gap-3">
           <div className="font-[700] text-[30px] text-[#222222]">
-            -{time.hours}
+            {time.hours}
           </div>
           <div className="font-[400] text-[14px] text-[#6f6f6f]">Hours</div>
         </div>
         <div className="flex items-center flex-col gap-3">
           <div className="font-[700] text-[30px] text-[#222222]">
-            -{time.minutes}
+            {time.minutes}
           </div>
           <div className="font-[400] text-[14px] text-[#6f6f6f]">Minutes</div>
         </div>
         <div className="flex items-center flex-col gap-3">
           <div className="font-[700] text-[30px] text-[#222222]">
-            -{time.seconds}
+            {time.seconds}
           </div>
           <div className="font-[400] text-[14px] text-[#6f6f6f]">Seconds</div>
         </div>
       </div>
       <div className="">
-        <div className="">{portfolioValue.conetnt2.percentage}</div>
-        <div className="">{portfolioValue.conetnt2.message}</div>
+        <div style={{ width: '50px', height: '50px', scale:'1.1' }}>
+          <CircularProgressbar
+            value={value}
+            text={`${value}%`}
+            strokeWidth={12}
+            styles={buildStyles({
+              rotation: 0, 
+              strokeLinecap: 'round', 
+              textSize: '20px',
+              pathColor: 'orange', 
+              textColor: 'black',
+              trailColor: '#BCE0FD', 
+              backgroundColor: '#FFFFFF', 
+            })}
+          />
+        </div>
+        <div className="mt-2">{portfolioValue.conetnt2.message}</div>
       </div>
     </div>
   );

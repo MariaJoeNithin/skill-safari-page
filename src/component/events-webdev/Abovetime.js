@@ -18,7 +18,7 @@ const Abovetime = () => {
 
   return (
     <>
-      <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-2 max-w-7xl mx-auto place-items-center">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-2 max-w-5xl mx-auto place-items-center">
         {abdata.map((ab, index) => (
           <div
             key={index}
