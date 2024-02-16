@@ -15,7 +15,6 @@ import HireFrmUs from "./component/src hirefrmus/hireFrmUs";
 import Webdev from "../src/component/events-webdev/Events-WebDev";
 import Msexcel from "./component/events-MSexcel/Events-MsExcel";
 import Enroll from "./component/EnrollComponent";
-//aravindhan nithin arockiya
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
