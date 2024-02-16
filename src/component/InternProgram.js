@@ -18,7 +18,7 @@ function InternProgram() {
 
   return (
     <div>
-      <div className=" max-w-screen-xl mx-auto p-10 grid grid-cols-1 xl2:grid-cols-2 mt-[40px] gap-10 ">
+      <div className=" max-w-screen-xl mx-auto p-10 grid grid-cols-1 xl:grid-cols-2 gap-10 ">
         <div className="flex flex-col gap-1 xl2:w-full lg:w-[85%] md:w-[95%] mx-auto ">
           <div className="font-[500] md:text-[62px] text-[55px] text-[#212529] lg:leading-[80px] leading-[60px] md:text-left text-center">
             {InternProgram_JSON.HomeScreenComponent.left.content_1}

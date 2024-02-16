@@ -13,7 +13,7 @@ import AutoTypingAnimation from "./AutoTypeingMainPage";
 import "./AutoTypeContent.css";
 
 function Main_content() {
-  window.scroll(0, 0);
+  window.scroll(0,0)
 
   const [trainer_1, setTrainer_1] = useState(false);
   const [trainer_2, setTrainer_2] = useState(false);
