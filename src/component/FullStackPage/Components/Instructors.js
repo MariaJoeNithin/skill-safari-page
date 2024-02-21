@@ -17,7 +17,7 @@ const Instructors = () => {
           <a key={index} href={cnt.profileLink} className=" cursor-pointer">
             <div className="instructor col border border-[#faf6ed] h-[100%] rounded-lg  items-center justify-center "
             >
-              <div className="flex items-center justify-center relative">
+              <div className="flex items-center justify-center relative -z-10">
                 <img
                   src={cnt.images}
                   alt={`Icon ${index + 1}`}

@@ -43,25 +43,25 @@ const CountdownTimer = () => {
       <div className="flex items-center md:gap-10 gap-5 flex-wrap sm:scale-100 scale-75 w-fit">
         <div className="flex items-center flex-col gap-3">
           <div className="font-[700] text-[30px] text-[#222222]">
-            {time.days}
+            -{time.days}
           </div>
           <div className="font-[400] text-[14px] text-[#6f6f6f]">Days</div>
         </div>
         <div className="flex items-center flex-col gap-3">
           <div className="font-[700] text-[30px] text-[#222222]">
-            {time.hours}
+            -{time.hours}
           </div>
           <div className="font-[400] text-[14px] text-[#6f6f6f]">Hours</div>
         </div>
         <div className="flex items-center flex-col gap-3">
           <div className="font-[700] text-[30px] text-[#222222]">
-            {time.minutes}
+            -{time.minutes}
           </div>
           <div className="font-[400] text-[14px] text-[#6f6f6f]">Minutes</div>
         </div>
         <div className="flex items-center flex-col gap-3">
           <div className="font-[700] text-[30px] text-[#222222]">
-            {time.seconds}
+            -{time.seconds}
           </div>
           <div className="font-[400] text-[14px] text-[#6f6f6f]">Seconds</div>
         </div>

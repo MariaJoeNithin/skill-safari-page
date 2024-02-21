@@ -11,6 +11,11 @@
   font-family: 'Outfit', sans-serif;
   scroll-behavior: smooth;
 }
+body{
+  max-width: 100vw !important;
+  margin: 0px !important;
+  padding: 0 !important;
+}
 .arrow{
   transform: translateX(-20px);
   transition: 0.1s;

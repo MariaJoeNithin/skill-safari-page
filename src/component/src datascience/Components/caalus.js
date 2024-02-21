@@ -6,7 +6,7 @@ const Call = () => {
 
   return (
     
-    <div className="container mx-auto mt-8  max-w-screen-xxl p-5 text-center" style={{ backgroundColor: "#1C2042" }}>
+    <div className="mx-auto mt-8 w-full p-5 text-center" style={{ backgroundColor: "#1C2042" }}>
       <h1 className="text-3xl font-bold mb-4 mx-auto text-white">
         {callData.title}
       </h1>
