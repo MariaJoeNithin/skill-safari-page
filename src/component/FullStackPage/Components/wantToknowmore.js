@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Knowmore = () => {
   const knowMore = JsonCardData.Knowmore;
-
+  
   return (
     <div
       className="mt-8 w-full p-10 text-center"
@@ -27,6 +27,7 @@ const Knowmore = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

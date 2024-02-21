@@ -1,8 +1,13 @@
 import React from "react";
 import JsonCardData from "../fullStackDev.json";
 
+import { usePopupBtn } from "../../../Globalbtn";
+  
+
 const CourseCurriculum = () => {
   const course = JsonCardData["Course Curriculum"];
+  
+const { isOpen, togglePopup } = usePopupBtn();
 
   return (
     <>
@@ -24,7 +29,7 @@ const CourseCurriculum = () => {
             ))}
           </div>
           <div className="flex justify-center items-center">
-            <button className="w-fit md:px-28 px-5 bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300">
+            <button className="w-fit md:px-28 px-5 bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300"  onClick={togglePopup}>
               View Curriculum
             </button>
           </div>

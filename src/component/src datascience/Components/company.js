@@ -1,8 +1,10 @@
 import React from "react";
 import JsonCardData from "../fullStackDev.json";
+import { usePopupBtn } from "../../../Globalbtn";
 
 const Company = () => {
   const companies = JsonCardData.companys;
+  const { isOpen, togglePopup } = usePopupBtn();
 
   return (
     <div className="container mx-auto mt-8 p-5 text-center max-w-screen-xl">
@@ -14,13 +16,7 @@ const Company = () => {
       </div>
       <p className="mt-4">{companies.text}</p>
       <button
-        className="text-white font-bold py-2 px-4 rounded mt-2"
-        style={{
-          backgroundColor: "#FF0000",
-          color: "#FFFFFF",
-          borderRadius: "8px",
-          padding: "10px 30px"
-        }}
+        className="w-fit md:px-28 px-5 bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300" onClick={togglePopup}
       >
         {companies.button}
       </button>

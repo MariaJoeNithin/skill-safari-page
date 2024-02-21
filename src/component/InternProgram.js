@@ -15,7 +15,6 @@ import FAQ from "./FAQ";
 
 function InternProgram() {
   window.scroll(0,0)
-
   return (
     <div>
       <div className=" max-w-screen-xl mx-auto p-10 grid grid-cols-1 xl:grid-cols-2 gap-10 ">

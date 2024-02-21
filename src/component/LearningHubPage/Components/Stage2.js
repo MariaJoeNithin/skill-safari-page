@@ -1,9 +1,11 @@
 import React from "react";
 
 import JsonCardData from "../learninghubdev.json";
+import { usePopupBtn } from "../../../Globalbtn";
 
 const Stage2 = () => {
   const stg2 = JsonCardData["Stage 2"];
+  const { isOpen, togglePopup } = usePopupBtn();
 
   return (
     <div className="container rounded-md shadow-skillsafari mx-auto  pb-8 px-8">
@@ -38,7 +40,7 @@ const Stage2 = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <button className="w-fit mt-8 md:px-10 px-5 bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300">
+        <button className="w-fit mt-8 md:px-10 px-5 bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300" onClick={togglePopup}>
           Choose your career path now!
         </button>
       </div>

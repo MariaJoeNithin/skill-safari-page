@@ -1,7 +1,10 @@
 import React from "react";
 import jsonCnt from "../learninghubdev.json";
+import Popup from "../../popUP";
+import { usePopupBtn } from "../../../Globalbtn";
 
 const LearnhubNav = () => {
+  const { isOpen, togglePopup } = usePopupBtn();
   let navList = jsonCnt.navPage;
   return (
     <>
@@ -58,7 +61,7 @@ const LearnhubNav = () => {
             </a>
           </li>
         </ul>
-        <button className="w-full bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300">
+        <button className="w-full bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300"  onClick={togglePopup}>
           Know More
         </button>
       </div>

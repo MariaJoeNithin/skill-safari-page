@@ -5,10 +5,10 @@ import Help from './component/Help';
 function App() {
   return (
     <div>
-      <SkillSafariNavigationBar />
-      <Help />
+        <SkillSafariNavigationBar />
+        <Help />
     </div>
   )
 }
 
-export default App
+export default App;

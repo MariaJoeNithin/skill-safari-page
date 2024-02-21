@@ -23,12 +23,12 @@ const FAQ = () => {
           >
             <div className={`p-4`}>
               <div
-                className={`m-2 text-base font-semibold leading-6 w-full relative `}
+                className={`m-2 text-base font-semibold leading-6 w-[95%] z-10 flex items-center justify-between`}
               >
-                <div className="xl:text-[20px] text-[18px] h-[fit] pe-11 flex items-center">
+                <div className="xl:text-[20px] text-[18px] w-[100%] h-[fit]  pe-11 flex items-center">
                   {item.Question}
                 </div>
-                <button className="flex items-center justify-center absolute right-2 top-0 rounded-lg text-[#f7a600] text-[24px] h-[32px] w-[32px] bg-[#fff5e5] ">
+                <button className="flex items-center justify-center  rounded-lg text-[#f7a600] text-[24px] h-[32px] w-[35px] min-w-[30px] bg-[#fff5e5] ">
                   {visibleIndex === index ? "-" : "+"}
                 </button>
               </div>

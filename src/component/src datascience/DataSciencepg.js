@@ -14,15 +14,21 @@ import CardCarousel from "./Components/CardCarousel";
 import Admission from "./Components/admission";
 import Company from "./Components/company";
 import FAQ from "./Components/accordion";
+import Popup from "../popUP";
+import { usePopupBtn } from "../../Globalbtn";
 // import Main_content from "./components/main_content";
 
 // import SkillSafariNavigationBar from "./component_src/header";
 
 const DataSciencepg = () => {
+  const { isOpen, togglePopup } = usePopupBtn();
   window.scroll(0,0)
-
   return (
     <>
+    {
+      isOpen ? 
+      <Popup /> : ""
+    }
       <FullStackPage />
       <Cards2 />
       <Cards />
@@ -34,7 +40,7 @@ const DataSciencepg = () => {
       <Cards5 />
      <Company />
       <Call />
-     <Slot />
+     {/* <Slot /> */}
      <CardCarousel />
      <FAQ />
       {/* <SkillSafariNavigationBar /> */}

@@ -1,6 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
+import Popup from "../../popUP";
+import { usePopupBtn } from "../../../Globalbtn";
+  
+
 
 const FullStackNav = () => {
+  // const [openPopUp, setOpenPopUp] = useState(false);
+
+  const {  togglePopup } = usePopupBtn();
+ 
   return (
     <>
       <div className="flex flex-col pb-8 px-8 shadow-skillsafari rounded-lg ">
@@ -34,7 +42,7 @@ const FullStackNav = () => {
             <a href="#FAQ">FAQ</a>
           </li>
         </ul>
-        <button className="w-full bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300">
+        <button className="w-full bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300"  onClick={togglePopup}>
           Know More
         </button>
       </div>
