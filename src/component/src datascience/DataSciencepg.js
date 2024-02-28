@@ -16,6 +16,7 @@ import Company from "./Components/company";
 import FAQ from "./Components/accordion";
 import Popup from "../popUP";
 import { usePopupBtn } from "../../Globalbtn";
+import OutcomeBased from "./Components/OutcomeBased";
 // import Main_content from "./components/main_content";
 
 // import SkillSafariNavigationBar from "./component_src/header";
@@ -32,7 +33,7 @@ const DataSciencepg = () => {
       <FullStackPage />
       <Cards2 />
       <Cards />
-      <Cards3 />
+      <OutcomeBased />
       <Admission />
       <CourseCurriculum />
       <Fees />
