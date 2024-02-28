@@ -15,7 +15,10 @@ import HireFrmUs from "./component/src hirefrmus/hireFrmUs";
 import Webdev from "../src/component/events-webdev/Events-WebDev";
 import Msexcel from "./component/events-MSexcel/Events-MsExcel";
 import Enroll from "./component/EnrollComponent";
-import { GlobalbtnProvider } from "./Globalbtn.jsx"
+import { GlobalbtnProvider } from "./Globalbtn.jsx";
+import Adminhome from "./component/AdminPortal/Adminhome.jsx"
+import Studentinput from "./component/AdminPortal/Studentinput.jsx";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
@@ -32,6 +35,8 @@ root.render(
         <Route path="/Web_Development_Internship" element={<InternProgram />} />
         <Route path="/data_analytics_internship" element={<Data_Analyst />} />
         <Route path="/Enroll" element={<Enroll />} />
+        <Route path="/admin" element={<Adminhome/>} />
+        <Route path="/studentInput" element={<Studentinput/>} />
       </Routes>
       <Footer />
     </GlobalbtnProvider>

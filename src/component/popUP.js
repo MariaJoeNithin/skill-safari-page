@@ -8,6 +8,7 @@ import { doc, setDoc } from "firebase/firestore";
 const Popup = ({ pageName }) => {
 
   const {togglePopup} = usePopupBtn();
+  const [loadBtn, setLoadBtn] = useState(false)
 
   const [formData, setFormData] = useState({
     fullName: "",
@@ -71,6 +72,7 @@ const Popup = ({ pageName }) => {
 
   // };
   const handleSubmit = async (e) => {
+    setLoadBtn(true);
     e.preventDefault();
   
     if (
@@ -88,7 +90,8 @@ const Popup = ({ pageName }) => {
         Name: formData.fullName,
         Email: formData.emailAddress,
         MobileNumber: formData.mobileNumber,
-        EnqiuryType: formData.selectedOption,
+        EnquiryType: formData.selectedOption,
+        Status : "Interested",
       };
   
       await setDoc(
@@ -100,6 +103,7 @@ const Popup = ({ pageName }) => {
     } catch (error) {
       console.error("Error submitting form:", error);
     }
+    setLoadBtn(false);
   };
   
   return (
@@ -168,7 +172,7 @@ const Popup = ({ pageName }) => {
                 placeholder="Enter Your Mobile Number"
                 onChange={handleChange}
                 className="w-full px-4 py-4 border rounded-md text-black focus:outline-none focus:border-blue-500"
-                // pattern="[0-9]{10}"
+                pattern="[0-9]{10}"
               />
               {numError ? (
                 <p className="text-red-500 text-sm mt-1">
@@ -205,7 +209,7 @@ const Popup = ({ pageName }) => {
               onClick={handleSubmit}
               className="w-full bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300"
             >
-              Submit
+              {loadBtn ? "Submmiting": "Submit"}
             </button>
           </form>
         </div>
