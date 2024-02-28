@@ -7,17 +7,13 @@ import Knowmore from "./wantToknowmore";
 import Popup from "../../popUP";
 import { usePopupBtn } from "../../../Globalbtn";
 
-
 const FullStackPage = () => {
   const { isOpen, togglePopup } = usePopupBtn();
 
   const section1 = jsonData.Section1;
   return (
     <>
-    {
-      isOpen ? 
-      <Popup /> : ""
-    }
+      {isOpen ? <Popup /> : ""}
       <section id="Section1" className=" bg-[#1C2042] text-white">
         <div className="container mx-auto max-w-7xl flex flex-col justify-center align-middle">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-7 ">

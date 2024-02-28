@@ -6,31 +6,30 @@ const Adminhome = () => {
   const [students, setStudents] = useState([]);
 
   useEffect(() => {
-    try {
-      const GetData = async () => {
-        const datum = await getDocs(
+    const fetchData = async () => {
+      try {
+        const querySnapshot = await getDocs(
           collection(STORAGE, "skillsafari course request")
         );
-        const data = datum.docs.map((target) => ({
-          id: target.id,
-          ...target.data(),
+        const data = querySnapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
         }));
-        console.log(data);
         setStudents(data);
-      };
-      GetData();
-    } catch (error) {
-      console.error("Error getting documents: ", error);
-    }
+      } catch (error) {
+        console.error("Error getting documents: ", error);
+      }
+    };
+    fetchData();
   }, [students]);
 
-    // const handleStatusChange = (userId, event) => {
-    //   const { value } = event.target;
+  // const handleStatusChange = (userId, event) => {
+  //   const { value } = event.target;
 
-    //   firebase.firestore().collection("skillsafari course request").doc(userId).update({
-    //     Status: value,
-    //   });
-    // };
+  //   firebase.firestore().collection("skillsafari course request").doc(userId).update({
+  //     Status: value,
+  //   });
+  // };
 
   return (
     <>
@@ -57,7 +56,7 @@ const Adminhome = () => {
               <td>
                 <select
                   value={user?.Status}
-                    // onChange={(event) => handleStatusChange(user?.id, event)}
+                  // onChange={(event) => handleStatusChange(user?.id, event)}
                 >
                   <option value="Interested">Interested</option>
                   <option value="pending">Pending</option>
