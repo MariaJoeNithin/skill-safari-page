@@ -13,6 +13,9 @@ import { IoLogoFigma } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaSass } from "react-icons/fa";
+import { doc, setDoc, updateDoc } from "firebase/firestore";
+import { DOCUMENTS, STORAGE } from "../../firebase/config";
+import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
 
 const Studentinput = () => {
   const skills = [
@@ -114,17 +117,64 @@ const Studentinput = () => {
     setFormData({ ...formData, projects: updatedProjects });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setFormData({
-      ...formData,
-      technicalSkills: [],
-      projects: [{ url: "", description: "" }],
-      resumeFile: null,
-    });
+    try {
+      setFormData({
+        ...formData,
+        technicalSkills: [...selectedSkills],
+        projects: [{ url: "", description: "" }],
+        resumeFile: null,
+      });
+      // firebase code.
+      await setDoc(
+        doc(STORAGE, "SkillSafari Students Details", formData.Email),
+        formData
+      );
+      window.alert("Submitted!");
+    } catch (error) {
+      alert("Oops! Somthing is Wrong.");
+    }
+  };
 
-    console.log(formData);
-    window.alert("Submitted!");
+  // const resumeUpload = async () => {
+  //   // console.log(formData.resumeFile);
+  //   try {
+  //     if (formData?.resumeFile) {
+  //       // const StorageAccess = getStorage();
+  //       const fileReference = ref(DOCUMENTS, `StudentResume/${formData.Email}`);
+  //       await uploadBytes(fileReference, formData?.resumeFile);
+  //       // const downloadResumeLink = await getDownloadURL(fileReference);
+  //       // await updateDoc(
+  //       //   doc(STORAGE, "SkillSafari Students Details", formData?.Email),
+  //       //   { resumeFile: downloadResumeLink }
+  //       // );
+  //     }
+  //     alert("resume uploaded :)");
+  //   } catch (error) {
+  //     console.error(error);
+  //   }
+  // };
+
+  const resumeUpload = async () => {
+    console.log(formData.resumeFile.name);
+    if (!formData.resumeFile) {
+      alert("Please select a file to upload.");
+      return;
+    }
+
+    const storage = DOCUMENTS;
+    const storageRef = ref(storage, `StudentResume/${formData.resumeFile.name}`);
+    try {
+      // Upload file to Firebase Storage
+      await uploadBytes(storageRef, formData?.resumeFile);
+      alert("File uploaded successfully!");
+    } catch (error) {
+      console.error("Error uploading file:", error);
+      alert(
+        "An error occurred while uploading the file. Please try again later."
+      );
+    }
   };
 
   const handleCheckboxChange = (e) => {
@@ -142,8 +192,8 @@ const Studentinput = () => {
   };
 
   return (
-    <div className="mx-2 md:mx-auto max-w-7xl flex flex-col justify-center align-middle my-5 shadow-skillsafari p-5 rounded-xl">
-      <h2 className="md:text-4xl text-2xl text-center my-5 underline">
+    <div className="mx-2 md:mx-auto max-w-7xl flex flex-col justify-center align-middle my-5 shadow-skillsafari py-5 px-10 rounded-xl">
+      <h2 className="md:text-4xl text-2xl text-center my-5 underline font-[600]">
         Student Input Form
       </h2>
       <form>
@@ -209,7 +259,7 @@ const Studentinput = () => {
             type="url"
             placeholder="Year"
             className="border col-span-1 md:col-span-2 rounded p-2"
-            value={formData.linkedinUrl}
+            value={formData.YearPassed}
             onChange={(e) =>
               setFormData({ ...formData, YearPassed: e.target.value })
             }
@@ -220,24 +270,24 @@ const Studentinput = () => {
             Student Batch:
           </label>
           <input
-            type="url"
+            type="text"
             placeholder="Batch"
             className="border col-span-1 md:col-span-2 rounded p-2"
-            value={formData.linkedinUrl}
+            value={formData.Batch}
             onChange={(e) =>
               setFormData({ ...formData, Batch: e.target.value })
             }
           />
         </div>
         <div className="grid items-center md:grid-cols-3 grid-cols-1 my-2">
-          <label className="col-span-1 md:text-2xl text-lg">
+          <label className="col-span-1 md:text-2xl text-lg ">
             Student Phone Number:
           </label>
           <input
-            type="url"
+            type="tel"
             placeholder="Phone Number"
             className="border col-span-1 md:col-span-2 rounded p-2"
-            value={formData.linkedinUrl}
+            value={formData.PhNumber}
             onChange={(e) =>
               setFormData({ ...formData, PhNumber: e.target.value })
             }
@@ -339,7 +389,7 @@ const Studentinput = () => {
             <input
               type="file"
               onChange={handleFileChange}
-              className=" hidden"
+              className=" bg-white w-[90px] m-1"
             />
           </label>
           {formData.resumeFile ? (
@@ -424,9 +474,10 @@ const Studentinput = () => {
         </div>
 
         <button
-          type="submit"
+          type="button"
           className="bg-red-600 text-white px-5 py-1 rounded tracking-wider mx-auto"
-          onClick={handleSubmit}
+          // onClick={()=>{handleSubmit();resumeUpload()}}
+          onClick={() => resumeUpload()}
         >
           Submit
         </button>
