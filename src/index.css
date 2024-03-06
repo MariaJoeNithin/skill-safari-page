@@ -1,50 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0px;
   padding: 0px;
   outline: none;
   text-decoration: none;
   font-size: 15px;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   scroll-behavior: smooth;
 }
-body{
+body {
   max-width: 100vw !important;
   margin: 0px !important;
   padding: 0 !important;
 }
-.arrow{
+.arrow {
   transform: translateX(-20px);
   transition: 0.1s;
 }
-.show-arrow:hover .arrow{
+.show-arrow:hover .arrow {
   transform: translateX(0);
   opacity: 1;
   transition: 0.3s;
 }
 
-.slide-anime{
+.slide-anime {
   animation: slide_move 0.5s ease;
   opacity: 1;
 }
 @keyframes slide_move {
-  0%{
+  0% {
     opacity: 0;
-    transform: translateY(-40px) scale(0.9) ;
+    transform: translateY(-40px) scale(0.9);
   }
-  100%{
+  100% {
     opacity: 1;
-    transform: translateY(0) scale(1) ;
+    transform: translateY(0) scale(1);
   }
 }
 
-
 .scroll-bar {
   scrollbar-width: thin;
-  scrollbar-color: #FFA22D #EBEBEB;
+  scrollbar-color: #ffa22d #ebebeb;
 }
 
 .scroll-bar::-webkit-scrollbar {
@@ -53,48 +52,46 @@ body{
 }
 .scroll-bar::-webkit-scrollbar-track {
   border-radius: 20px;
-  background-color: #EBEBEB;
+  background-color: #ebebeb;
 }
 
 .scroll-bar::-webkit-scrollbar-track:hover {
-  background-color: #B8C0C2;
+  background-color: #b8c0c2;
 }
 
 .scroll-bar::-webkit-scrollbar-track:active {
-  background-color: #B8C0C2;
+  background-color: #b8c0c2;
 }
 
 .scroll-bar::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #FFA22D;
+  background-color: #ffa22d;
 }
 
 .scroll-bar::-webkit-scrollbar-thumb:hover {
-  background-color: #FF8A52;
+  background-color: #ff8a52;
 }
 
 .scroll-bar::-webkit-scrollbar-thumb:active {
-  background-color: #D2740C;
+  background-color: #d2740c;
 }
 
-
-
-.instagram{
-  color: #2699FB;
-  /* background: linear-gradient(-55deg, #fccc6300, #fbad50, #cd486b, #4c68d7); */
-
-
+.instagram {
+  color: #2699fb;
 }
 .instagram:hover {
-  /* background: linear-gradient(-55deg, #fccc63, #fbad50, #cd486b, #4c68d7);
+  color: rgb(255, 71, 123);
+}
 
-  -webkit-text-fill-color: transparent;
-  color: transparent; 
-  -webkit-background-clip: text; */
+.spinning {
+  animation: spinner 0.7s linear infinite;
+}
 
-
-/* -webkit-background-clip: text;
--webkit-text-fill-color: transparent; */
-color: rgb(255, 71, 123);
-
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }

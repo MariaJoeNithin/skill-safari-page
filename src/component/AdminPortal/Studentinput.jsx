@@ -15,9 +15,17 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { FaSass } from "react-icons/fa";
 import { doc, setDoc, updateDoc } from "firebase/firestore";
 import { DOCUMENTS, STORAGE } from "../../firebase/config";
-import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
+import {
+  getDownloadURL,
+  getStorage,
+  ref,
+  uploadBytes,
+  uploadBytesResumable,
+} from "firebase/storage";
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 const Studentinput = () => {
+  const [fileLoading, setFileLoading] = useState(false);
   const skills = [
     { id: "Html", name: "Html", icon: TiHtml5 },
     { id: "Css", name: "Css", icon: IoLogoCss3 },
@@ -117,64 +125,34 @@ const Studentinput = () => {
     setFormData({ ...formData, projects: updatedProjects });
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit = async () => {
+    setFileLoading(true)
     try {
       setFormData({
         ...formData,
         technicalSkills: [...selectedSkills],
         projects: [{ url: "", description: "" }],
-        resumeFile: null,
+        resumeFile: "null",
       });
-      // firebase code.
+
+      const storage = DOCUMENTS;
+      const storageRef = ref(storage, `StudentResume/${formData.Name}`);
+      const uploadtask = uploadBytesResumable(storageRef, formData.resumeFile);
+      await uploadtask;
+      const downloadURL = await getDownloadURL(uploadtask.snapshot.ref);
+
       await setDoc(
-        doc(STORAGE, "SkillSafari Students Details", formData.Email),
-        formData
+        doc(STORAGE, "SkillSafari Students Details", formData?.Email),
+        {
+          ...formData,
+          resumeFile: downloadURL,
+        }
       );
-      window.alert("Submitted!");
     } catch (error) {
-      alert("Oops! Somthing is Wrong.");
+      alert("Oops! Somthing is Wrong.", error.message);
+      console.log(error);
     }
-  };
-
-  // const resumeUpload = async () => {
-  //   // console.log(formData.resumeFile);
-  //   try {
-  //     if (formData?.resumeFile) {
-  //       // const StorageAccess = getStorage();
-  //       const fileReference = ref(DOCUMENTS, `StudentResume/${formData.Email}`);
-  //       await uploadBytes(fileReference, formData?.resumeFile);
-  //       // const downloadResumeLink = await getDownloadURL(fileReference);
-  //       // await updateDoc(
-  //       //   doc(STORAGE, "SkillSafari Students Details", formData?.Email),
-  //       //   { resumeFile: downloadResumeLink }
-  //       // );
-  //     }
-  //     alert("resume uploaded :)");
-  //   } catch (error) {
-  //     console.error(error);
-  //   }
-  // };
-
-  const resumeUpload = async () => {
-    console.log(formData.resumeFile.name);
-    if (!formData.resumeFile) {
-      alert("Please select a file to upload.");
-      return;
-    }
-
-    const storage = DOCUMENTS;
-    const storageRef = ref(storage, `StudentResume/${formData.resumeFile.name}`);
-    try {
-      // Upload file to Firebase Storage
-      await uploadBytes(storageRef, formData?.resumeFile);
-      alert("File uploaded successfully!");
-    } catch (error) {
-      console.error("Error uploading file:", error);
-      alert(
-        "An error occurred while uploading the file. Please try again later."
-      );
-    }
+    setFileLoading(false)
   };
 
   const handleCheckboxChange = (e) => {
@@ -188,7 +166,7 @@ const Studentinput = () => {
 
   const handleOptionChange = (e) => {
     const { value } = e.target;
-    setFormData({ ...formData, placement: value, companyName: "" }); // Reset company name when changing placement option
+    setFormData({ ...formData, placement: value, companyName: "" });
   };
 
   return (
@@ -475,11 +453,17 @@ const Studentinput = () => {
 
         <button
           type="button"
-          className="bg-red-600 text-white px-5 py-1 rounded tracking-wider mx-auto"
-          // onClick={()=>{handleSubmit();resumeUpload()}}
-          onClick={() => resumeUpload()}
+          className="bg-red-600 text-white px-5 py-1 rounded tracking-wider mx-auto flex items-center justify-center gap-2"
+          onClick={() => handleSubmit()}
+          // onClick={() => resumeUpload()}
         >
-          Submit
+          {fileLoading ? (
+            <>
+              <AiOutlineLoading3Quarters className=" spinning" /> Submmiting...
+            </>
+          ) : (
+            "Submit"
+          )}
         </button>
       </form>
     </div>

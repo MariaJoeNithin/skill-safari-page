@@ -13,23 +13,6 @@ function SkillSafariNavigationBar() {
   const [mainMenu, setMainMenu] = useState(false);
   const [isSticky, setIsSticky] = useState(false);
 
-  
-
-  
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const scrollPosition = window.scrollY;
-  //     setIsSticky(scrollPosition > 100);
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-
   return (
     <div
       className={`shadow-xl py-2 ${
@@ -51,8 +34,8 @@ function SkillSafariNavigationBar() {
               : "hidden h-0"
           }`}
         >
-          <div className="flex items-center group hover:text-orange-400 relative">
-            <span className="">
+          <div className="flex items-center group relative  cursor-pointer ">
+            <span className=" ">
               {SkillSafari_Compounds_key.header.menu_items.option_1}
             </span>
             <IoMdArrowDropdown className="text-xl ml-1 group-hover:text-gray-700" />
@@ -69,7 +52,7 @@ function SkillSafariNavigationBar() {
                   <FaCode className=" text-2xl mx-3" />
                 </span>
                 <span className="ml-2">
-                  {SkillSafari_Compounds_key.header.option_1_branch.option_1}{" "}
+                  {SkillSafari_Compounds_key.header.option_1_branch.option_1}
                   <span></span>
                 </span>
               </Link>
@@ -92,8 +75,8 @@ function SkillSafariNavigationBar() {
           >
             {SkillSafari_Compounds_key.header.menu_items.option_2}
           </Link>
-          <div className="flex items-center group hover:text-orange-500 relative">
-            <span className="">
+          <div className="flex items-center group  relative cursor-pointer">
+            <span className="hover:text-orange-500">
               {SkillSafari_Compounds_key.header.menu_items.option_3}
             </span>
             <IoMdArrowDropdown className="text-xl ml-1 group-hover:text-gray-700" />
@@ -140,8 +123,8 @@ function SkillSafariNavigationBar() {
           >
             {SkillSafari_Compounds_key.header.menu_items.option_5}
           </Link>
-          <div className="flex items-center group hover:text-orange-500 relative">
-            <span className="">
+          <div className="flex items-center group cursor-pointer relative">
+            <span className="hover:text-orange-500">
               {SkillSafari_Compounds_key.header.menu_items.option_6}
             </span>
             <IoMdArrowDropdown className="text-xl ml-1 group-hover:text-gray-700" />
