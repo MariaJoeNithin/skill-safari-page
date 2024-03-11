@@ -126,7 +126,7 @@ const Studentinput = () => {
   };
 
   const handleSubmit = async () => {
-    setFileLoading(true)
+    setFileLoading(true);
     try {
       setFormData({
         ...formData,
@@ -145,6 +145,7 @@ const Studentinput = () => {
         doc(STORAGE, "SkillSafari Students Details", formData?.Email),
         {
           ...formData,
+          technicalSkills: selectedSkills,
           resumeFile: downloadURL,
         }
       );
@@ -152,7 +153,9 @@ const Studentinput = () => {
       alert("Oops! Somthing is Wrong.", error.message);
       console.log(error);
     }
-    setFileLoading(false)
+    setFileLoading(false);
+    alert("File Submitted ✅")
+
   };
 
   const handleCheckboxChange = (e) => {
