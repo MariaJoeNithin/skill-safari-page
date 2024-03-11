@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
-import './popup.css';
+import "./popup.css";
 import { usePopupBtn } from "../Globalbtn";
-import { STORAGE } from '../firebase/config';
+import { STORAGE } from "../firebase/config";
 import { doc, setDoc } from "firebase/firestore";
 
 const Popup = ({ pageName }) => {
-
-  const {togglePopup} = usePopupBtn();
-  const [loadBtn, setLoadBtn] = useState(false)
+  const { togglePopup } = usePopupBtn();
+  const [loadBtn, setLoadBtn] = useState(false);
 
   const [formData, setFormData] = useState({
     fullName: "",
@@ -55,11 +54,7 @@ const Popup = ({ pageName }) => {
   //     setDoc(doc(STORAGE, "skillsafari course request",formData.emailAddress), UserInfo);
   //     console.log("Form submitted:", formData);
 
-
-
-
   //   }
-    
 
   //   if (
   //     !/\S+@\S+\.\S+/.test(formData.emailAddress) ||
@@ -74,7 +69,7 @@ const Popup = ({ pageName }) => {
   const handleSubmit = async (e) => {
     setLoadBtn(true);
     e.preventDefault();
-  
+
     if (
       formData.fullName === "" ||
       formData.emailAddress === "" ||
@@ -84,32 +79,39 @@ const Popup = ({ pageName }) => {
       // Error handling logic
       return;
     }
-  
+
     try {
       const UserInfo = {
         Name: formData.fullName,
         Email: formData.emailAddress,
         MobileNumber: formData.mobileNumber,
         EnquiryType: formData.selectedOption,
-        Status : "Interested",
+        Status: "Interested",
       };
-  
+
       await setDoc(
         doc(STORAGE, "skillsafari course request", formData.emailAddress),
         UserInfo
       );
-  
+
       console.log("Form submitted:", formData);
     } catch (error) {
       console.error("Error submitting form:", error);
     }
     setLoadBtn(false);
   };
-  
+
   return (
-    <div className={` grid place-items-center fixed z-[10000] w-[100%] h-[100vh] bg-black top-0 bg-opacity-60`}>
-      <div className=" w-[100%] max-w-[450px] min-w-[220px] z-[10000] bg-violet-950 p-4 rounded-2xl relative anime-uptodown " >
-        <button className="absolute right-7 top-7 flex items-center  p-2 rounded-full bg-red-200 text-red-600" onClick={() => togglePopup()}><IoMdClose className="text-[1.5rem]" /></button>
+    <div
+      className={` grid place-items-center fixed z-[10000] w-[100%] h-[100vh] bg-black top-0 bg-opacity-60`}
+    >
+      <div className=" w-[100%] max-w-[450px] min-w-[220px] z-[10000] bg-violet-950 p-4 rounded-2xl relative anime-uptodown ">
+        <button
+          className="absolute right-7 top-7 flex items-center  p-2 rounded-full bg-red-200 text-red-600"
+          onClick={() => togglePopup()}
+        >
+          <IoMdClose className="text-[1.5rem]" />
+        </button>
         <div className="w-full mx-auto p-8 rounded-2xl shadow-md border z-[10000] bg-white">
           <h2 className="text-2xl font-semibold mb-6 text-center">
             Want to know More?
@@ -209,7 +211,7 @@ const Popup = ({ pageName }) => {
               onClick={handleSubmit}
               className="w-full bg-[#F3274F] text-white py-4 text-lg rounded-md hover:bg-blue-600 transition duration-300"
             >
-              {loadBtn ? "Submmiting": "Submit"}
+              {loadBtn ? "Submmiting" : "Submit"}
             </button>
           </form>
         </div>
